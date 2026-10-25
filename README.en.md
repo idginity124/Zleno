@@ -83,7 +83,7 @@ I don’t currently earn an income from Zleno. I pay for development and infrast
 If you can, you’re welcome to help with server costs. Your support helps me keep working on the app and increase capacity. You don’t need to pay to use Zleno.
 
 <p align="center">
-  <a href="SUPPORT.md#english"><img src="assets/support.en.svg" width="240" alt="Support Zleno" /></a>
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="240" alt="Support Zleno" /></a>
 </p>
 
 Trying the app, reporting a problem or telling a friend also helps a lot. Thank you.

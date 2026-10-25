@@ -83,7 +83,7 @@ Zleno’dan şu an gelir elde etmiyorum. Geliştirmeyi ve sunucu tarafını kend
 İmkânın varsa sunucu giderlerine destek olabilirsin. Desteğin, uygulamayı geliştirmeye devam etmeme ve sunucu kapasitesini artırmama yardımcı olur. Zleno’yu kullanmak için ödeme yapman gerekmiyor.
 
 <p align="center">
-  <a href="SUPPORT.md"><img src="assets/support.svg" width="240" alt="Zleno’ya destek ol" /></a>
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.svg" width="240" alt="Zleno’ya destek ol" /></a>
 </p>
 
 Uygulamayı denemen, bir sorunu bildirmen veya bir arkadaşına önermen de çok işime yarar. Teşekkür ederim.

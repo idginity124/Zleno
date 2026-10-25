@@ -6,7 +6,11 @@ Kullanıcı sayısı arttıkça özellikle sesli görüşmeler ve dosya trafiği
 
 ## Maddi destek
 
-Buy Me a Coffee sayfamı hazırlıyorum. Ödeme bağlantısı hazır olduğunda buraya ekleyeceğim; şu anda bu sayfadan ödeme alınmıyor.
+<p align="center">
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.svg" width="240" alt="Buy Me a Coffee üzerinden Zleno’ya destek ol" /></a>
+</p>
+
+[Buy Me a Coffee üzerinden destek ol →](https://buymeacoffee.com/ekrembulgan)
 
 Destek tamamen isteğe bağlı. Zleno’yu kullanmak için ödeme yapman gerekmiyor.
 
@@ -28,6 +32,12 @@ Zleno is completely free. I develop it on my own and don’t currently earn an i
 
 As more people join, voice calls and file traffic can increase server costs. I may not be able to cover them alone. If you’d like to help, your contribution will go toward keeping the servers running and increasing capacity.
 
-I’m setting up a Buy Me a Coffee page. The payment link will be added here when it’s ready; this page does not currently accept payments. Support is optional, and you don’t need to pay to use Zleno.
+<p align="center">
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="240" alt="Support Zleno on Buy Me a Coffee" /></a>
+</p>
+
+[Support Zleno on Buy Me a Coffee →](https://buymeacoffee.com/ekrembulgan)
+
+Support is optional, and you don’t need to pay to use Zleno.
 
 Testing the app, reporting a problem, sharing it with a friend or starring the repository also helps. Thank you.
