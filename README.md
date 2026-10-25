@@ -87,6 +87,11 @@ Ayrıntılar: [Yol haritası](ROADMAP.md). Bunlar geliştirme hedefleridir; tari
 
 Hata bildirmek veya özellik önermek için **Issues → New issue** yolunu kullan. Hesap bilgilerini, özel mesajları veya erişim anahtarlarını herkese açık bildirimlere ekleme. Güvenlik konuları için [SECURITY.md](SECURITY.md) dosyasına bak.
 
+### 🧠 The Training Arc
+
+Bu proje, sürekli öğrenip geliştiğim kişisel yolculuğumun bir parçası.  
+Her proje bir seviye, her hata bir antrenman.
+
 **Geliştirici:** [Ekrem Bulgan](https://www.ekrembulgan.com) · **Mobil test topluluğu:** [Google Groups](https://groups.google.com/g/zleno)
 
 Zleno’yu faydalı buluyorsan bu depoya yıldız vererek daha fazla kişinin keşfetmesine yardımcı olabilirsin.
