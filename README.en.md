@@ -132,7 +132,7 @@
 </p>
 
 <p align="center">
-  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="240" alt="Support Zleno" /></a>
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="280" alt="Support Zleno" /></a>
 </p>
 
 <p align="center">

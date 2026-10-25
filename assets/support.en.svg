@@ -1,19 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="104" viewBox="0 0 480 104" role="img" aria-label="Support Zleno">
-<title>Support Zleno</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120" role="img" aria-labelledby="title description">
+<title id="title">Support Zleno</title><desc id="description">Help with server costs</desc>
 <defs>
-  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#8064f4"/><stop offset="1" stop-color="#6148d5"/></linearGradient>
-  <linearGradient id="shine"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-  <clipPath id="button"><rect x="1" y="1" width="478" height="102" rx="22"/></clipPath>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#896cf5"/><stop offset=".6" stop-color="#7050dc"/><stop offset="1" stop-color="#5737b8"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d1bcff" stop-opacity=".8"/><stop offset="1" stop-color="#a98cf5" stop-opacity=".2"/></linearGradient>
+  <linearGradient id="shine"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="button"><rect x="1" y="1" width="478" height="118" rx="25"/></clipPath>
 </defs>
 <style>
-  .shine { animation: sweep 10s ease-in-out 2s infinite; transform: translateX(-140px); opacity: 0; }
-  .heart { transform-origin: 65px 47px; animation: heartbeat 10s ease-in-out 2s infinite; }
-  @keyframes sweep { 0%,2% { transform: translateX(-140px); opacity: 0; } 5% { opacity: 1; } 23% { transform: translateX(620px); opacity: 0; } 100% { transform: translateX(620px); opacity: 0; } }
-  @keyframes heartbeat { 0%,4%,12%,100% { transform: scale(1); } 7% { transform: scale(1.1); } 10% { transform: scale(1.04); } }
-  @media (prefers-reduced-motion: reduce) { .shine { display: none; animation: none; } .heart { animation: none; } }
+  .shine { transform:translateX(-140px);opacity:0;animation:sweep 12s ease-in-out 2s infinite; }
+  .heart { transform-origin:61px 60px;animation:beat 12s ease-in-out 2s infinite; }
+  @keyframes sweep { 0%,3% {transform:translateX(-140px);opacity:0} 5% {opacity:1} 22%,100% {transform:translateX(620px);opacity:0} }
+  @keyframes beat { 0%,4%,13%,100% {transform:scale(1)} 7% {transform:scale(1.08)} 10% {transform:scale(1.02)} }
+  @media(prefers-reduced-motion:reduce) { .shine {display:none;animation:none} .heart {animation:none} }
 </style>
-<rect x="1" y="1" width="478" height="102" rx="22" fill="url(#bg)" stroke="#a48cfb"/>
+<rect x="1" y="1" width="478" height="118" rx="25" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
 <g clip-path="url(#button)"><rect class="shine" x="0" y="-20" width="130" height="160" fill="url(#shine)"/></g>
-<path class="heart" d="M65 67 44 47c-13-15 8-31 21-17 13-14 34 2 21 17Z" fill="#fff"/>
-<text x="274" y="64" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="30" font-weight="700">Support Zleno</text>
+<rect x="23" y="27" width="76" height="66" rx="19" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".15"/>
+<g class="heart"><path d="M61 78 42 59c-12-14 7-29 19-16 12-13 31 2 19 16Z" fill="#fff"/></g>
+<text x="117" y="53" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#fff">Support Zleno</text>
+<text x="117" y="80" font-family="Arial,sans-serif" font-size="17" fill="#f0e9ff">Help with server costs</text>
+<circle cx="435" cy="60" r="18" fill="#fff" fill-opacity=".1"/>
+<path d="M427 60h14m-6-6 6 6-6 6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

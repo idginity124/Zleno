@@ -13,7 +13,7 @@
 <h2 align="center">Maddi destek</h2>
 
 <p align="center">
-  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.svg" width="240" alt="Buy Me a Coffee üzerinden Zleno’ya destek ol" /></a>
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.svg" width="280" alt="Buy Me a Coffee üzerinden Zleno’ya destek ol" /></a>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="240" alt="Support Zleno on Buy Me a Coffee" /></a>
+  <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="280" alt="Support Zleno on Buy Me a Coffee" /></a>
 </p>
 
 <p align="center">
