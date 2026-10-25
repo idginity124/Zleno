@@ -1,77 +1,89 @@
-<div align="center">
-  <img src="assets/logo.png" width="120" alt="Zleno logo" />
-  <h1>Zleno</h1>
-  <p><strong>A place to talk. A space to belong.</strong></p>
-  <p>An independently developed app for voice conversations, messaging, and communities.</p>
-  <p><a href="https://apps.microsoft.com/detail/9NK6QQKSLSHD">Windows · Microsoft Store</a> · <a href="https://play.google.com/apps/testing/com.zleno.app">Android · Join the test</a></p>
-  <p><a href="README.md">Türkçe</a> · <a href="SUPPORT.md#english">Support Zleno</a> · <a href="https://www.ekrembulgan.com">Developer website</a></p>
-</div>
+<p align="center">
+  <img src="assets/cover.en.svg" width="100%" alt="Zleno — Your people. Your space. Voice rooms, messaging, and communities. Independently built by Ekrem Bulgan." />
+</p>
+
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/9NK6QQKSLSHD"><img src="assets/windows.en.svg" width="220" alt="Download Zleno for Windows from Microsoft Store" /></a>
+  &nbsp;
+  <a href="https://play.google.com/apps/testing/com.zleno.app"><img src="assets/android.en.svg" width="220" alt="Join the Zleno Android test" /></a>
+</p>
+
+<p align="center">
+  <a href="README.md">Türkçe</a> &nbsp; / &nbsp;
+  <a href="#try-it-on-your-phone">Try Android</a> &nbsp; / &nbsp;
+  <a href="https://github.com/idginity124/Zleno/issues/new/choose">Feedback</a> &nbsp; / &nbsp;
+  <a href="https://www.ekrembulgan.com">ekrembulgan.com</a>
+</p>
+
+<br />
+
+**Meet your friends in a room. Keep your community together.**
+
+Zleno brings voice conversations, community channels, and direct messages into one independently developed app. Built by Ekrem Bulgan with personal resources.
+
+> **Currently Turkish only.** An English interface is planned for an upcoming update. Feedback in either language is welcome.
+
+<br />
+
+## More ways to connect
+
+**Meet in voice rooms.** Talk with friends and be part of the conversation.  
+**Make space for your community.** Bring conversations together with servers and text channels.  
+**Stay in touch.** Connect through direct messages, friends, and file sharing.  
+**Make it yours.** Customize your profile and appearance.
+
+<p align="center">
+  <img src="assets/voice-room-preview.png" width="100%" alt="Zleno desktop voice room preview with participant cards, microphone, camera, and screen sharing controls." />
+  <br />
+  <sub>Desktop interface preview. Appearance and feature availability may vary by version.</sub>
+</p>
+
+## Take Zleno with you
+
+| Available to try | On the horizon |
+| :--- | :--- |
+| **Windows · Available**<br />[Get it free on Microsoft Store ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) | **Linux · In preparation**<br />Packaging and compatibility validation are planned. |
+| **Android · In testing**<br />[Join the Google Play test ↗](#try-it-on-your-phone) | **macOS · Planned**<br />Subject to successful Mac builds and device testing. |
+
+Linux and macOS downloads are not available yet. Follow the [roadmap](ROADMAP.md) for development goals.
+
+## Try it on your phone
+
+Access the Android app through Google Play:
+
+1. **Join the community** → [Zleno Google Group](https://groups.google.com/g/zleno)
+2. **Accept the invitation** → [Google Play testing](https://play.google.com/apps/testing/com.zleno.app)
+3. **Install the app** → [Zleno on Google Play](https://play.google.com/store/apps/details?id=com.zleno.app)
+
+Use the **same Google account** throughout. If access is unavailable, check your group membership and testing opt-in, then try again later.
+
+## One developer. A growing idea.
+
+I am building Zleno with my own resources. A limited budget has kept me from growing the app and its server infrastructure as quickly as I would like. As resources allow, my aim is stronger infrastructure and a better experience.
+
+**Trying the app, reporting an issue, or sharing it with a friend all help.** Financial support is optional; a direct support link will be added to the [support page](SUPPORT.md#english) when available.
+
+[Ways to support →](SUPPORT.md#english) &nbsp; · &nbsp; [Share an idea →](https://github.com/idginity124/Zleno/issues/new/choose)
+
+## What's next
+
+**Android reliability** &nbsp; / &nbsp; **Linux release** &nbsp; / &nbsp; **macOS testing** &nbsp; / &nbsp; **English interface**
+
+Server capacity improvements depend on available resources. These are goals without guaranteed delivery dates. [Explore the roadmap →](ROADMAP.md)
 
 ---
 
-## Your conversations, together
+### 🧠 The Training Arc
 
-Zleno brings community channels, direct messages, and live voice rooms into one app. It is independently developed by **Ekrem Bulgan**.
+> This project is part of my personal journey of learning and growth.  
+> **Every project is a level. Every mistake is practice.**
 
-This repository is a public home for product information, download links, feedback, and development updates. **Application source code is not published here.**
+<p align="center">
+  <strong>Built by Ekrem Bulgan.</strong><br />
+  <a href="https://www.ekrembulgan.com">Website</a> &nbsp; · &nbsp;
+  <a href="https://github.com/idginity124/Zleno/issues/new/choose">Report a bug / share an idea</a> &nbsp; · &nbsp;
+  <a href="https://groups.google.com/g/zleno">Tester community</a><br /><br />
+  <sub>If you enjoy Zleno, a star helps others discover it.</sub>
+</p>
 
-> **Language:** The app currently supports Turkish only. An English interface is planned for an upcoming update. Feedback in Turkish or English is welcome.
-
-## Explore Zleno
-
-- Meet in live voice rooms.
-- Organize conversations with community servers and text channels.
-- Stay connected through direct messages, friends, and file sharing.
-- Customize your profile and appearance.
-
-Availability varies by version, platform, and service capacity.
-
-<details>
-<summary><strong>Preview a desktop voice room</strong></summary>
-
-<img src="assets/voice-room-preview.png" alt="Zleno desktop voice room interface preview" width="100%" />
-
-*An interface preview; the released app may look different.*
-
-</details>
-
-## Platforms
-
-| Platform | Status | Access |
-| --- | --- | --- |
-| **Windows** | Available on Microsoft Store | [Open Microsoft Store](https://apps.microsoft.com/detail/9NK6QQKSLSHD) |
-| **Android** | Google Play testing | [Join the test below](#try-zleno-on-android) |
-| **Linux** | Release preparation in progress | Packages will be announced after validation. |
-| **macOS** | Target platform | Subject to successful macOS builds and device testing. |
-
-No Linux or macOS downloads are currently provided in this repository. There are no announced release dates for those platforms.
-
-## Try Zleno on Android
-
-Please access the mobile app through **Google Play**:
-
-1. [Join the Zleno Google Group](https://groups.google.com/g/zleno).
-2. [Accept the Google Play testing invitation](https://play.google.com/apps/testing/com.zleno.app).
-3. [Install Zleno from Google Play](https://play.google.com/store/apps/details?id=com.zleno.app).
-
-Use the **same Google account** for all three steps and on your phone. If access is unavailable, check your group membership, testing opt-in, and selected account, then try again later.
-
-## An independent project with limited resources
-
-I am building Zleno with my own resources. A limited budget has kept me from growing the project and its server infrastructure as quickly as I would like. Current service capacity reflects those constraints; improving capacity and reliability as the community grows is one of my priorities.
-
-Trying the app, reporting problems, and sharing it all help. If you would like to contribute financially, see the [support page](SUPPORT.md#english) for current information. Support is entirely optional.
-
-## What's next?
-
-Android reliability improvements, validated Linux packages, macOS feasibility and testing, an English interface, and server capacity improvements as resources allow. See the [roadmap](ROADMAP.md). These are goals, not guaranteed delivery dates.
-
-## Feedback and contact
-
-Use **Issues → New issue** to report a bug or suggest a feature. Include your device, operating system, and app version, and remove personal information from screenshots and logs. See [SECURITY.md](SECURITY.md) for private security reports.
-
-Created by [Ekrem Bulgan](https://www.ekrembulgan.com). If you enjoy Zleno, a star helps others discover it.
-
----
-
-© 2026 Ekrem Bulgan. This repository does not provide application source code or an open-source license. See [LICENSE](LICENSE) for presentation content and asset permissions.
+<p align="center"><sub>© 2026 Ekrem Bulgan · Product information and feedback; application source code is not included.<br /><a href="LICENSE">Usage terms</a> · <a href="SECURITY.md">Security reports</a></sub></p>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Zleno — Your people. Your space.">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#15142c"/><stop offset="1" stop-color="#0d111b"/></linearGradient>
+ <linearGradient id="purple"><stop stop-color="#a994ff"/><stop offset="1" stop-color="#6557ff"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#6655ff" stop-opacity=".25"/><stop offset="1" stop-color="#6655ff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#bg)" stroke="#34324c"/>
+<circle cx="982" cy="175" r="240" fill="url(#glow)"/>
+<g fill="none" stroke="#6658bd" stroke-opacity=".22"><circle cx="985" cy="180" r="82"/><circle cx="985" cy="180" r="130"/><circle cx="985" cy="180" r="180"/></g>
+<rect x="50" y="42" width="9" height="9" rx="4.5" fill="#ad99ff"/>
+<text x="72" y="51" fill="#bcb4dc" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">INDEPENDENTLY BUILT BY EKREM BULGAN</text>
+<text x="47" y="161" fill="#f5f2ff" font-family="Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-5">Zleno<tspan fill="#9683ff">.</tspan></text>
+<text x="52" y="224" fill="#f2efff" font-family="Arial,sans-serif" font-size="30" font-weight="600">Your people. Your space.</text>
+<text x="53" y="264" fill="#aba8c5" font-family="Arial,sans-serif" font-size="19">Voice rooms · Messaging · Communities</text>
+<path d="M53 310 H455" stroke="#63578c" stroke-opacity=".4"/>
+<text x="53" y="333" fill="#8a86a4" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">DESKTOP + MOBILE / MADE TO CONNECT</text>
+<g fill="url(#purple)">
+<rect x="894" y="158" width="14" height="44" rx="7"/><rect x="920" y="129" width="14" height="102" rx="7"/><rect x="946" y="147" width="14" height="66" rx="7"/><rect x="972" y="104" width="14" height="152" rx="7"/><rect x="998" y="130" width="14" height="100" rx="7"/><rect x="1024" y="149" width="14" height="62" rx="7"/><rect x="1050" y="164" width="14" height="32" rx="7"/>
+</g>
+<circle cx="865" cy="126" r="5" fill="#ad99ff"/><circle cx="1105" cy="238" r="4" fill="#ad99ff"/><circle cx="1073" cy="78" r="3" fill="#70678e"/>
+</svg>
