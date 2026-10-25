@@ -1,3 +1,5 @@
+<div align="center">
+
 <p align="center">
   <img src="assets/cover.en.svg" width="840" alt="Zleno — Your people. Your space. Voice rooms, messaging, and communities. Independently built by Ekrem Bulgan." />
 </p>
@@ -18,15 +20,19 @@
 
 <br />
 
-I’m Ekrem, and I’m building Zleno as a place to talk, message and spend time with friends. It brings voice rooms, servers and direct messages together. I develop and run it on my own.
+<p align="center">
+  I’m Ekrem, and I’m building Zleno as a place to talk, message and spend time with friends. It brings voice rooms, servers and direct messages together. I develop and run it on my own.
+</p>
 
-> **Zleno is completely free.** The interface is currently Turkish; English support is planned.
+<p align="center"><strong>Zleno is completely free.</strong> The interface is currently Turkish; English support is planned.</p>
 
 <br />
 
-## A look inside
+<h2 align="center">A look inside</h2>
 
-Talk in voice rooms, create servers and text channels, send direct messages and share files. Themes and workspace settings let you adjust the layout and appearance.
+<p align="center">
+  Talk in voice rooms, create servers and text channels, send direct messages and share files. Themes and workspace settings let you adjust the layout and appearance.
+</p>
 
 <p align="center">
   <img src="assets/voice-room-preview.png" width="760" alt="Zleno desktop voice room preview with participant cards, microphone, camera, and screen sharing controls." />
@@ -50,57 +56,106 @@ Talk in voice rooms, create servers and text channels, send direct messages and 
 
 </details>
 
+<h2 align="center">Download and try it</h2>
 
-## Download and try it
+<table align="center">
+  <thead><tr>
+    <th align="center">Platform</th>
+    <th align="center">Status</th>
+    <th align="center">Get started</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Windows</strong></td>
+      <td align="center">Available on Microsoft Store · Free</td>
+      <td align="center"><a href="https://apps.microsoft.com/detail/9NK6QQKSLSHD">Get it on Microsoft Store ↗</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Android</strong></td>
+      <td align="center">Google Play testing</td>
+      <td align="center"><a href="#try-it-on-your-phone">Join in three steps ↓</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Linux</strong></td>
+      <td align="center">0.1.9 test release · x86_64</td>
+      <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Download the Linux test release ↗</a></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>macOS</strong></td>
+      <td align="center">Planned</td>
+      <td align="center"><a href="ROADMAP.md">Roadmap →</a></td>
+    </tr>
+  </tbody>
+</table>
 
-| Platform | Status | Get started |
-| :--- | :--- | :--- |
-| **Windows** | Available on Microsoft Store · Free | [Get it on Microsoft Store ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) |
-| **Android** | Google Play testing | [Join in three steps ↓](#try-it-on-your-phone) |
-| **Linux** | 0.1.9 test release · x86_64 | [Download the Linux test release ↗](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) |
-| **macOS** | Planned | [Roadmap →](ROADMAP.md) |
+<h3 align="center">Linux test release</h3>
 
-### Linux test release
+<p align="center">
+  <strong>Linux 0.1.9 test downloads are available.</strong> Includes an Arch / CachyOS package and experimental DEB/RPM files. Built on CachyOS x86_64 with glibc 2.44; distribution compatibility and real-device testing are not complete. AppImage preparation continues.
+</p>
 
-**Linux 0.1.9 test downloads are available.** Includes an Arch / CachyOS package and experimental DEB/RPM files. Built on CachyOS x86_64 with glibc 2.44; distribution compatibility and real-device testing are not complete. AppImage preparation continues.
+<p align="center">
+  <a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Download packages →</a> &nbsp; · &nbsp; <a href="docs/LINUX.md#english">Installation guide →</a> &nbsp; · &nbsp; <a href="CHANGELOG.md#english">Development notes →</a>
+</p>
 
-[Download packages →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) &nbsp; · &nbsp; [Installation guide →](docs/LINUX.md#english) &nbsp; · &nbsp; [Development notes →](CHANGELOG.md#english)
+<a name="try-it-on-your-phone"></a>
+<h2 align="center">Try it on your phone</h2>
 
-## Try it on your phone
+<p align="center">
+  Access the Android app through Google Play:
+</p>
 
-Access the Android app through Google Play:
+<p align="center">
+  1. <strong>Join the community</strong> → <a href="https://groups.google.com/g/zleno">Zleno Google Group</a><br />
+  2. <strong>Accept the invitation</strong> → <a href="https://play.google.com/apps/testing/com.zleno.app">Google Play testing</a><br />
+  3. <strong>Install the app</strong> → <a href="https://play.google.com/store/apps/details?id=com.zleno.app">Zleno on Google Play</a>
+</p>
 
-1. **Join the community** → [Zleno Google Group](https://groups.google.com/g/zleno)
-2. **Accept the invitation** → [Google Play testing](https://play.google.com/apps/testing/com.zleno.app)
-3. **Install the app** → [Zleno on Google Play](https://play.google.com/store/apps/details?id=com.zleno.app)
+<p align="center">
+  Use the <strong>same Google account</strong> throughout. If access is unavailable, check your group membership and testing opt-in, then try again later.
+</p>
 
-Use the **same Google account** throughout. If access is unavailable, check your group membership and testing opt-in, then try again later.
+<h2 align="center">Server costs and support</h2>
 
-## Server costs and support
+<p align="center">
+  I don’t currently earn an income from Zleno. I pay for development and infrastructure myself, so server capacity is limited by what I can afford. As more people join, I may not be able to cover those costs alone.
+</p>
 
-I don’t currently earn an income from Zleno. I pay for development and infrastructure myself, so server capacity is limited by what I can afford. As more people join, I may not be able to cover those costs alone.
-
-If you can, you’re welcome to help with server costs. Your support helps me keep working on the app and increase capacity. You don’t need to pay to use Zleno.
+<p align="center">
+  If you can, you’re welcome to help with server costs. Your support helps me keep working on the app and increase capacity. You don’t need to pay to use Zleno.
+</p>
 
 <p align="center">
   <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="240" alt="Support Zleno" /></a>
 </p>
 
-Trying the app, reporting a problem or telling a friend also helps a lot. Thank you.
+<p align="center">
+  Trying the app, reporting a problem or telling a friend also helps a lot. Thank you.
+</p>
 
-## What's next
+<h2 align="center">What's next</h2>
 
-**Android reliability** &nbsp; / &nbsp; **Linux release** &nbsp; / &nbsp; **macOS testing** &nbsp; / &nbsp; **English interface**
+<p align="center">
+  <strong>Android reliability</strong> &nbsp; / &nbsp; <strong>Linux release</strong> &nbsp; / &nbsp; <strong>macOS testing</strong> &nbsp; / &nbsp; <strong>English interface</strong>
+</p>
 
-My first priority is making the current versions more reliable, then adding platform and language support. I share progress in the [roadmap](ROADMAP.md).
+<p align="center">
+  My first priority is making the current versions more reliable, then adding platform and language support. I share progress in the <a href="ROADMAP.md">roadmap</a>.
+</p>
 
----
+<hr />
 
 <p align="center"><img src="assets/training-arc.en.svg" width="840" alt="The Training Arc. This project is part of my personal journey of learning and growth. Every project is a level. Every mistake is practice." /></p>
 
-**Ekrem Bulgan** · Creator of Zleno  
-[Website ↗](https://www.ekrembulgan.com) &nbsp; · &nbsp; [Feedback ↗](https://github.com/idginity124/Zleno/issues/new/choose) &nbsp; · &nbsp; [Tester community ↗](https://groups.google.com/g/zleno)
+<p align="center">
+  <strong>Ekrem Bulgan</strong> · Creator of Zleno<br />
+<a href="https://www.ekrembulgan.com">Website ↗</a> &nbsp; · &nbsp; <a href="https://github.com/idginity124/Zleno/issues/new/choose">Feedback ↗</a> &nbsp; · &nbsp; <a href="https://groups.google.com/g/zleno">Tester community ↗</a>
+</p>
 
-Enjoy Zleno? Leave a ⭐ to help others discover it.
+<p align="center">
+  Enjoy Zleno? Leave a ⭐ to help others discover it.
+</p>
 
-<sub>© 2026 Ekrem Bulgan · Application source not included · [Usage terms](LICENSE) · [Security](SECURITY.md)</sub>
+<p align="center"><sub>© 2026 Ekrem Bulgan · Application source not included · <a href="LICENSE">Usage terms</a> · <a href="SECURITY.md">Security</a></sub></p>
+
+</div>

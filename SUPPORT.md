@@ -1,43 +1,70 @@
-# Zleno’ya destek ol
+<div align="center">
 
-Zleno tamamen ücretsiz. Uygulamayı tek başıma geliştiriyorum ve şu an projeden gelir elde etmiyorum. Sunucu tarafını da kendi bütçemle yürütüyorum.
+<h1 align="center">Zleno’ya destek ol</h1>
 
-Kullanıcı sayısı arttıkça özellikle sesli görüşmeler ve dosya trafiği sunucu maliyetini artırabilir. Bu masrafları tek başıma karşılayamazsam kapasiteyi büyütmem zorlaşacak. Destek olmak istersen katkın öncelikle sunucuları çalışır tutmaya ve kapasiteyi artırmaya yardımcı olacak.
+<p align="center">
+  Zleno tamamen ücretsiz. Uygulamayı tek başıma geliştiriyorum ve şu an projeden gelir elde etmiyorum. Sunucu tarafını da kendi bütçemle yürütüyorum.
+</p>
 
-## Maddi destek
+<p align="center">
+  Kullanıcı sayısı arttıkça özellikle sesli görüşmeler ve dosya trafiği sunucu maliyetini artırabilir. Bu masrafları tek başıma karşılayamazsam kapasiteyi büyütmem zorlaşacak. Destek olmak istersen katkın öncelikle sunucuları çalışır tutmaya ve kapasiteyi artırmaya yardımcı olacak.
+</p>
+
+<h2 align="center">Maddi destek</h2>
 
 <p align="center">
   <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.svg" width="240" alt="Buy Me a Coffee üzerinden Zleno’ya destek ol" /></a>
 </p>
 
-[Buy Me a Coffee üzerinden destek ol →](https://buymeacoffee.com/ekrembulgan)
+<p align="center">
+  <a href="https://buymeacoffee.com/ekrembulgan">Buy Me a Coffee üzerinden destek ol →</a>
+</p>
 
-Destek tamamen isteğe bağlı. Zleno’yu kullanmak için ödeme yapman gerekmiyor.
+<p align="center">
+  Destek tamamen isteğe bağlı. Zleno’yu kullanmak için ödeme yapman gerekmiyor.
+</p>
 
-## Başka nasıl yardımcı olabilirsin?
+<h2 align="center">Başka nasıl yardımcı olabilirsin?</h2>
 
-- [Android testine katıl](README.md#telefonda-dene) ve deneyimini paylaş.
-- Karşılaştığın sorunları [Issues](https://github.com/idginity124/Zleno/issues/new/choose) üzerinden bildir.
-- Uygulamayı ilgilenebilecek bir arkadaşına öner.
-- İstersen depoya yıldız bırak.
+<p align="center">
+  <a href="README.md#telefonda-dene">Android testine katıl</a> ve deneyimini paylaş.<br />
+  Karşılaştığın sorunları <a href="https://github.com/idginity124/Zleno/issues/new/choose">Issues</a> üzerinden bildir.<br />
+  Uygulamayı ilgilenebilecek bir arkadaşına öner.<br />
+  İstersen depoya yıldız bırak.
+</p>
 
-Teşekkür ederim.  
-**Ekrem Bulgan** · [ekrembulgan.com](https://www.ekrembulgan.com)
+<p align="center">
+  Teşekkür ederim.<br />
+<strong>Ekrem Bulgan</strong> · <a href="https://www.ekrembulgan.com">ekrembulgan.com</a>
+</p>
 
----
+<hr />
 
-## English
+<a name="english"></a>
+<h2 align="center">English</h2>
 
-Zleno is completely free. I develop it on my own and don’t currently earn an income from it. I also cover the infrastructure costs myself.
+<p align="center">
+  Zleno is completely free. I develop it on my own and don’t currently earn an income from it. I also cover the infrastructure costs myself.
+</p>
 
-As more people join, voice calls and file traffic can increase server costs. I may not be able to cover them alone. If you’d like to help, your contribution will go toward keeping the servers running and increasing capacity.
+<p align="center">
+  As more people join, voice calls and file traffic can increase server costs. I may not be able to cover them alone. If you’d like to help, your contribution will go toward keeping the servers running and increasing capacity.
+</p>
 
 <p align="center">
   <a href="https://buymeacoffee.com/ekrembulgan"><img src="assets/support.en.svg" width="240" alt="Support Zleno on Buy Me a Coffee" /></a>
 </p>
 
-[Support Zleno on Buy Me a Coffee →](https://buymeacoffee.com/ekrembulgan)
+<p align="center">
+  <a href="https://buymeacoffee.com/ekrembulgan">Support Zleno on Buy Me a Coffee →</a>
+</p>
 
-Support is optional, and you don’t need to pay to use Zleno.
+<p align="center">
+  Support is optional, and you don’t need to pay to use Zleno.
+</p>
 
-Testing the app, reporting a problem, sharing it with a friend or starring the repository also helps. Thank you.
+<p align="center">
+  Testing the app, reporting a problem, sharing it with a friend or starring the repository also helps. Thank you.
+</p>
+
+</div>
