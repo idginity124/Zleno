@@ -1,0 +1,39 @@
+name: Hata bildir / Bug report
+description: Zleno’da karşılaştığın bir sorunu paylaş.
+title: "[Bug]: "
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Android
+        - Linux (yayımlandığında / when available)
+        - macOS (yayımlandığında / when available)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Uygulama sürümü / App version
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Cihaz ve işletim sistemi / Device and OS
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Ne oldu, nasıl tekrarlanır? / What happened, steps to reproduce
+      description: Beklenen davranışı da yaz. / Include expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Görseller veya ek bilgiler / Screenshots or details
+      description: Kişisel bilgileri ve özel mesajları gizle. / Remove personal information.

@@ -1,0 +1,16 @@
+name: Özellik öner / Feature request
+description: Zleno için bir geliştirme öner.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Hangi ihtiyacını karşılar? / What would this help you do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Önerin / Your suggestion
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+# This is a presentation-only repository.
+.env
+.env.*
+*.jks
+*.keystore
+*.pfx
+*.p12
+*.pem
+*.key
+node_modules/
+build/
+dist/
+target/
+.local-tools/
+.DS_Store
