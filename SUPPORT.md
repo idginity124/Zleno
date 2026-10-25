@@ -1,32 +1,33 @@
 # Zleno’ya destek ol
 
-Zleno, Ekrem Bulgan tarafından kişisel imkânlarla geliştirilen bağımsız bir projedir. Sınırlı bütçe nedeniyle sunucu kapasitesini ve platform desteğini istediğim hızda büyütemiyorum.
+Zleno tamamen ücretsiz. Uygulamayı tek başıma geliştiriyorum ve şu an projeden gelir elde etmiyorum. Sunucu tarafını da kendi bütçemle yürütüyorum.
 
-## Destek nereye katkı sağlayabilir?
-
-- Sunucu ve gerçek zamanlı iletişim altyapısının giderleri.
-- Kullanıcı sayısı arttıkça kapasite ve hizmet sürekliliğinin iyileştirilmesi.
-- Farklı platformlarda test ve yayın süreçleri.
-
-Bunlar destekle geliştirmek istediğim alanlardır; belirli bir özellik veya yayın tarihi taahhüdü değildir.
+Kullanıcı sayısı arttıkça özellikle sesli görüşmeler ve dosya trafiği sunucu maliyetini artırabilir. Bu masrafları tek başıma karşılayamazsam kapasiteyi büyütmem zorlaşacak. Destek olmak istersen katkın öncelikle sunucuları çalışır tutmaya ve kapasiteyi artırmaya yardımcı olacak.
 
 ## Maddi destek
 
-**Doğrudan destek bağlantısı henüz eklenmedi.** Bağlantı hazır olduğunda bu sayfada ve README’de paylaşılacak.
+Buy Me a Coffee sayfamı hazırlıyorum. Ödeme bağlantısı hazır olduğunda buraya ekleyeceğim; şu anda bu sayfadan ödeme alınmıyor.
 
-Şimdilik [geliştiricinin sitesinden](https://www.ekrembulgan.com) iletişim seçeneklerine ulaşabilirsin. Bu bağlantı bir ödeme sayfası değildir.
+Destek tamamen isteğe bağlı. Zleno’yu kullanmak için ödeme yapman gerekmiyor.
 
-Destek tamamen isteğe bağlıdır. Ödeme yapmadan da testlere katılabilir, geri bildirim verebilir ve projeyi paylaşabilirsin.
+## Başka nasıl yardımcı olabilirsin?
 
-## Ücretsiz destek de değerli
+- [Android testine katıl](README.md#telefonda-dene) ve deneyimini paylaş.
+- Karşılaştığın sorunları [Issues](https://github.com/idginity124/Zleno/issues/new/choose) üzerinden bildir.
+- Uygulamayı ilgilenebilecek bir arkadaşına öner.
+- İstersen depoya yıldız bırak.
 
-1. [Android test topluluğuna katıl](https://groups.google.com/g/zleno).
-2. Kullandığın sürümdeki sorunları Issues bölümüne yaz.
-3. Zleno’yu ilgilenebilecek arkadaşlarınla paylaş.
-4. Depoya yıldız vererek görünürlüğüne katkıda bulun.
+Teşekkür ederim.  
+**Ekrem Bulgan** · [ekrembulgan.com](https://www.ekrembulgan.com)
+
+---
 
 ## English
 
-Zleno is independently developed by Ekrem Bulgan with limited personal resources. Optional financial support could help cover servers, real-time communication infrastructure, and platform testing.
+Zleno is completely free. I develop it on my own and don’t currently earn an income from it. I also cover the infrastructure costs myself.
 
-**A direct support link has not been added yet.** You can find contact options on the [developer website](https://www.ekrembulgan.com); it is not a payment link. Supporting the project does not promise a feature or delivery date. Testing, feedback, sharing, and starring the repository are equally welcome ways to help.
+As more people join, voice calls and file traffic can increase server costs. I may not be able to cover them alone. If you’d like to help, your contribution will go toward keeping the servers running and increasing capacity.
+
+I’m setting up a Buy Me a Coffee page. The payment link will be added here when it’s ready; this page does not currently accept payments. Support is optional, and you don’t need to pay to use Zleno.
+
+Testing the app, reporting a problem, sharing it with a friend or starring the repository also helps. Thank you.

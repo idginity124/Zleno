@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover.en.svg" width="100%" alt="Zleno — Your people. Your space. Voice rooms, messaging, and communities. Independently built by Ekrem Bulgan." />
+  <img src="assets/cover.en.svg" width="840" alt="Zleno — Your people. Your space. Voice rooms, messaging, and communities. Independently built by Ekrem Bulgan." />
 </p>
 
 <p align="center">
@@ -18,36 +18,40 @@
 
 <br />
 
-**Meet your friends in a room. Keep your community together.**
+I’m Ekrem, and I’m building Zleno as a place to talk, message and spend time with friends. It brings voice rooms, servers and direct messages together. I develop and run it on my own.
 
-Zleno brings voice conversations, community channels, and direct messages into one independently developed app. Built by Ekrem Bulgan with personal resources.
-
-> **Currently Turkish only.** An English interface is planned for an upcoming update. Feedback in either language is welcome.
+> **Zleno is completely free.** The interface is currently Turkish; English support is planned.
 
 <br />
 
-## More ways to connect
+## A look inside
 
-**Meet in voice rooms.** Talk with friends and be part of the conversation.  
-**Make space for your community.** Bring conversations together with servers and text channels.  
-**Stay in touch.** Connect through direct messages, friends, and file sharing.  
-**Make it yours.** Customize your profile and appearance.
+Talk in voice rooms, create servers and text channels, send direct messages and share files. Themes and workspace settings let you adjust the layout and appearance.
 
 <p align="center">
-  <img src="assets/voice-room-preview.png" width="100%" alt="Zleno desktop voice room preview with participant cards, microphone, camera, and screen sharing controls." />
+  <img src="assets/voice-room-preview.png" width="760" alt="Zleno desktop voice room preview with participant cards, microphone, camera, and screen sharing controls." />
   <br />
   <sub>Desktop interface preview. Appearance and feature availability may vary by version.</sub>
 </p>
 
+<details>
+<summary>Theme and layout settings</summary>
+
 <p align="center">
-  <a href="assets/theme-preview.jpg"><img src="assets/theme-preview.jpg" width="48%" alt="Zleno theme editor interface preview" /></a>
-  &nbsp;
-  <a href="assets/workspace-preview.jpg"><img src="assets/workspace-preview.jpg" width="48%" alt="Zleno workspace layout settings preview" /></a>
-  <br /><sub>Theme editor on the left, workspace settings on the right. Click an image to enlarge.</sub>
+  <br />
+  <a href="assets/theme-preview.jpg"><img src="assets/theme-preview.jpg" width="680" alt="Zleno theme editor" /></a>
+  <br /><sub>Theme editor. Click to enlarge.</sub>
 </p>
 
+<p align="center">
+  <a href="assets/workspace-preview.jpg"><img src="assets/workspace-preview.jpg" width="680" alt="Zleno workspace settings" /></a>
+  <br /><sub>Workspace settings. Click to enlarge.</sub>
+</p>
 
-## Take Zleno with you
+</details>
+
+
+## Download and try it
 
 | Platform | Status | Get started |
 | :--- | :--- | :--- |
@@ -56,7 +60,7 @@ Zleno brings voice conversations, community channels, and direct messages into o
 | **Linux** | 0.1.9 test release · x86_64 | [Download the Linux test release ↗](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) |
 | **macOS** | Planned | [Roadmap →](ROADMAP.md) |
 
-### First steps on Linux
+### Linux test release
 
 **Linux 0.1.9 test downloads are available.** Includes an Arch / CachyOS package and experimental DEB/RPM files. Built on CachyOS x86_64 with glibc 2.44; distribution compatibility and real-device testing are not complete. AppImage preparation continues.
 
@@ -72,23 +76,27 @@ Access the Android app through Google Play:
 
 Use the **same Google account** throughout. If access is unavailable, check your group membership and testing opt-in, then try again later.
 
-## One developer. A growing idea.
+## Server costs and support
 
-I am building Zleno with my own resources. A limited budget has kept me from growing the app and its server infrastructure as quickly as I would like. As resources allow, my aim is stronger infrastructure and a better experience.
+I don’t currently earn an income from Zleno. I pay for development and infrastructure myself, so server capacity is limited by what I can afford. As more people join, I may not be able to cover those costs alone.
 
-**Trying the app, reporting an issue, or sharing it with a friend all help.** Financial support is optional; a direct support link will be added to the [support page](SUPPORT.md#english) when available.
+If you can, you’re welcome to help with server costs. Your support helps me keep working on the app and increase capacity. You don’t need to pay to use Zleno.
 
-[Ways to support →](SUPPORT.md#english) &nbsp; · &nbsp; [Share an idea →](https://github.com/idginity124/Zleno/issues/new/choose)
+<p align="center">
+  <a href="SUPPORT.md#english"><img src="assets/support.en.svg" width="240" alt="Support Zleno" /></a>
+</p>
+
+Trying the app, reporting a problem or telling a friend also helps a lot. Thank you.
 
 ## What's next
 
 **Android reliability** &nbsp; / &nbsp; **Linux release** &nbsp; / &nbsp; **macOS testing** &nbsp; / &nbsp; **English interface**
 
-Server capacity improvements depend on available resources. These are goals without guaranteed delivery dates. [Explore the roadmap →](ROADMAP.md)
+My first priority is making the current versions more reliable, then adding platform and language support. I share progress in the [roadmap](ROADMAP.md).
 
 ---
 
-<p><img src="assets/training-arc.en.svg" width="100%" alt="The Training Arc. This project is part of my personal journey of learning and growth. Every project is a level. Every mistake is practice." /></p>
+<p align="center"><img src="assets/training-arc.en.svg" width="840" alt="The Training Arc. This project is part of my personal journey of learning and growth. Every project is a level. Every mistake is practice." /></p>
 
 **Ekrem Bulgan** · Creator of Zleno  
 [Website ↗](https://www.ekrembulgan.com) &nbsp; · &nbsp; [Feedback ↗](https://github.com/idginity124/Zleno/issues/new/choose) &nbsp; · &nbsp; [Tester community ↗](https://groups.google.com/g/zleno)

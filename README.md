@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover.svg" width="100%" alt="Zleno — Sohbetin bir yeri olsun. Sesli odalar, mesajlaşma ve topluluklar. Ekrem Bulgan tarafından geliştirildi." />
+  <img src="assets/cover.svg" width="840" alt="Zleno — Sohbetin bir yeri olsun. Sesli odalar, mesajlaşma ve topluluklar. Ekrem Bulgan tarafından geliştirildi." />
 </p>
 
 <p align="center">
@@ -18,36 +18,40 @@
 
 <br />
 
-**Arkadaşlarınla bir odada buluş. Topluluğunla aynı yerde kal.**
+Zleno’yu arkadaşlarla konuşmak, mesajlaşmak ve aynı yerde buluşmak için geliştiriyorum. Sesli odalar, sunucular ve özel mesajlar tek uygulamada. Ben Ekrem; projeyi tek başıma, kendi imkânlarımla sürdürüyorum.
 
-Zleno; sesli sohbeti, topluluk kanallarını ve özel mesajları bir araya getiren bağımsız bir iletişim uygulaması. Ekrem Bulgan tarafından, kişisel imkânlarla geliştiriliyor.
-
-> **Şu an Türkçe.** İngilizce arayüz desteği yakında eklenmek üzere planlanıyor.
+> **Zleno tamamen ücretsiz.** Arayüz şu an Türkçe; İngilizce desteği üzerinde de çalışmayı planlıyorum.
 
 <br />
 
-## Birlikte olmanın farklı yolları
+## Uygulamadan birkaç görüntü
 
-**Sesli odalarda buluş.** Arkadaşlarınla konuş, aynı sohbetin parçası ol.  
-**Topluluğuna alan aç.** Sunucular ve yazılı kanallarla konuşmalarını bir araya getir.  
-**Bağlantını sürdür.** Özel mesajlar, arkadaşlar ve dosya paylaşımıyla iletişimde kal.  
-**Kendin gibi görün.** Profilini ve uygulamanın görünümünü kişiselleştir.
+Sesli odalarda konuşabilir, sunucu ve yazılı kanallar oluşturabilir, özel mesajlaşabilir ve dosya paylaşabilirsin. Tema ve çalışma alanı ayarlarıyla görünümü de kendine göre değiştirebilirsin.
 
 <p align="center">
-  <img src="assets/voice-room-preview.png" width="100%" alt="Zleno masaüstü önizlemesi: katılımcı kartları, mikrofon, kamera ve ekran paylaşımı kontrolleri bulunan bir sesli oda." />
+  <img src="assets/voice-room-preview.png" width="760" alt="Zleno masaüstü önizlemesi: katılımcı kartları, mikrofon, kamera ve ekran paylaşımı kontrolleri bulunan bir sesli oda." />
   <br />
   <sub>Masaüstü sesli oda önizlemesi. Görünüm ve özellikler sürüme göre değişebilir.</sub>
 </p>
 
+<details>
+<summary>Tema ve görünüm ayarları</summary>
+
 <p align="center">
-  <a href="assets/theme-preview.jpg"><img src="assets/theme-preview.jpg" width="48%" alt="Zleno tema özelleştirme arayüzü önizlemesi" /></a>
-  &nbsp;
-  <a href="assets/workspace-preview.jpg"><img src="assets/workspace-preview.jpg" width="48%" alt="Zleno çalışma alanı yerleşim ayarları önizlemesi" /></a>
-  <br /><sub>Solda tema düzenleyicisi, sağda çalışma alanı ayarları. Büyütmek için görsellere tıkla.</sub>
+  <br />
+  <a href="assets/theme-preview.jpg"><img src="assets/theme-preview.jpg" width="680" alt="Zleno tema düzenleyicisi" /></a>
+  <br /><sub>Tema düzenleyicisi. Büyütmek için görsele tıkla.</sub>
 </p>
 
+<p align="center">
+  <a href="assets/workspace-preview.jpg"><img src="assets/workspace-preview.jpg" width="680" alt="Zleno çalışma alanı ayarları" /></a>
+  <br /><sub>Çalışma alanı ayarları. Büyütmek için görsele tıkla.</sub>
+</p>
 
-## Zleno’yu yanında götür
+</details>
+
+
+## İndir ve dene
 
 | Platform | Durum | Başlangıç |
 | :--- | :--- | :--- |
@@ -56,7 +60,7 @@ Zleno; sesli sohbeti, topluluk kanallarını ve özel mesajları bir araya getir
 | **Linux** | 0.1.9 test sürümü · x86_64 | [Linux test sürümünü indir ↗](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) |
 | **macOS** | Planlanıyor | [Yol haritası →](ROADMAP.md) |
 
-### Linux’ta ilk buluşma
+### Linux test sürümü
 
 **Linux 0.1.9 test sürümü indirmeye açık.** Arch / CachyOS paketi ve deneysel DEB/RPM dosyaları mevcut. Bu ilk ön sürüm CachyOS x86_64 / glibc 2.44 üzerinde üretildi; diğer dağıtımlarda uyumluluk ve gerçek cihaz testleri henüz tamamlanmadı. AppImage hazırlığı sürüyor.
 
@@ -72,23 +76,27 @@ Android sürümünü Google Play üzerinden denemek için:
 
 Üç adımda da **aynı Google hesabını** kullan. Erişim açılmazsa grup üyeliğini ve test katılımını kontrol edip daha sonra yeniden dene.
 
-## Bir kişinin projesi, birlikte büyüyen bir fikir
+## Sunucu masrafları ve destek
 
-Zleno’yu kendi imkânlarımla geliştiriyorum. Sınırlı bütçem nedeniyle projeyi ve sunucu altyapısını istediğim hızda büyütemedim. Hedefim, imkânlar arttıkça daha güçlü bir altyapı ve daha iyi bir deneyim sunmak.
+Zleno’dan şu an gelir elde etmiyorum. Geliştirmeyi ve sunucu tarafını kendi bütçemle yürütüyorum; bu yüzden kapasiteyi istediğim kadar artıramıyorum. Kullanıcı sayısı arttıkça çıkacak sunucu masraflarını tek başıma karşılayamayabilirim.
 
-**Denemen, sorunları bildirmen veya bir arkadaşınla paylaşman bile katkı.** Maddi destek de tamamen isteğe bağlı; doğrudan destek bağlantısı hazır olduğunda [destek sayfasına](SUPPORT.md) eklenecek.
+İmkânın varsa sunucu giderlerine destek olabilirsin. Desteğin, uygulamayı geliştirmeye devam etmeme ve sunucu kapasitesini artırmama yardımcı olur. Zleno’yu kullanmak için ödeme yapman gerekmiyor.
 
-[Destek seçenekleri →](SUPPORT.md) &nbsp; · &nbsp; [Bir fikir paylaş →](https://github.com/idginity124/Zleno/issues/new/choose)
+<p align="center">
+  <a href="SUPPORT.md"><img src="assets/support.svg" width="240" alt="Zleno’ya destek ol" /></a>
+</p>
+
+Uygulamayı denemen, bir sorunu bildirmen veya bir arkadaşına önermen de çok işime yarar. Teşekkür ederim.
 
 ## Sıradaki adımlar
 
 **Android kararlılığı** &nbsp; / &nbsp; **Linux sürümü** &nbsp; / &nbsp; **macOS testleri** &nbsp; / &nbsp; **İngilizce arayüz**
 
-Sunucu kapasitesini de kaynaklar elverdikçe geliştirmek istiyorum. Bunlar kesin tarihe bağlı olmayan geliştirme hedefleri. [Yol haritasına göz at →](ROADMAP.md)
+Önce mevcut sürümleri daha kararlı hale getirmek, ardından platform ve dil desteğini genişletmek istiyorum. İlerlemeyi [yol haritasında](ROADMAP.md) paylaşıyorum.
 
 ---
 
-<p><img src="assets/training-arc.svg" width="100%" alt="The Training Arc. Bu proje, sürekli öğrenip geliştiğim kişisel yolculuğumun bir parçası. Her proje bir seviye, her hata bir antrenman." /></p>
+<p align="center"><img src="assets/training-arc.svg" width="840" alt="The Training Arc. Bu proje, sürekli öğrenip geliştiğim kişisel yolculuğumun bir parçası. Her proje bir seviye, her hata bir antrenman." /></p>
 
 **Ekrem Bulgan** · Zleno’nun geliştiricisi  
 [Web sitesi ↗](https://www.ekrembulgan.com) &nbsp; · &nbsp; [Geri bildirim ↗](https://github.com/idginity124/Zleno/issues/new/choose) &nbsp; · &nbsp; [Test topluluğu ↗](https://groups.google.com/g/zleno)
