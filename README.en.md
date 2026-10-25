@@ -8,10 +8,13 @@
   <a href="https://apps.microsoft.com/detail/9NK6QQKSLSHD"><img src="assets/windows.en.svg" width="220" alt="Download Zleno for Windows from Microsoft Store" /></a>
   &nbsp;
   <a href="https://play.google.com/apps/testing/com.zleno.app"><img src="assets/android.en.svg" width="220" alt="Join the Zleno Android test" /></a>
+  &nbsp;
+  <a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test"><img src="assets/linux.en.svg" width="220" alt="Download Zleno for Linux" /></a>
 </p>
 
 <p align="center">
   <a href="README.md">Türkçe</a> &nbsp; / &nbsp;
+  <a href="#a-look-inside">Screenshots</a> &nbsp; / &nbsp;
   <a href="#try-it-on-your-phone">Try Android</a> &nbsp; / &nbsp;
   <a href="docs/LINUX.md#english">Linux guide</a> &nbsp; / &nbsp;
   <a href="https://github.com/idginity124/Zleno/issues/new/choose">Feedback</a> &nbsp; / &nbsp;
@@ -28,6 +31,7 @@
 
 <br />
 
+<a name="a-look-inside"></a>
 <h2 align="center">A look inside</h2>
 
 <p align="center">
@@ -35,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/voice-room-preview.png" width="760" alt="Zleno desktop voice room preview with participant cards, microphone, camera, and screen sharing controls." />
+  <a href="assets/voice-room-preview.png"><img src="assets/voice-room-preview.png" width="760" alt="Zleno desktop voice room preview with participant cards, microphone, camera, and screen sharing controls." /></a>
   <br />
   <sub>Desktop interface preview. Appearance and feature availability may vary by version.</sub>
 </p>
@@ -78,7 +82,7 @@
     <tr>
       <td align="center"><strong>Linux</strong></td>
       <td align="center">0.1.9 test release · x86_64</td>
-      <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Download the Linux test release ↗</a></td>
+      <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Download Zleno for Linux ↗</a></td>
     </tr>
     <tr>
       <td align="center"><strong>macOS</strong></td>

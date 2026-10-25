@@ -8,10 +8,13 @@
   <a href="https://apps.microsoft.com/detail/9NK6QQKSLSHD"><img src="assets/windows.svg" width="220" alt="Windows için Microsoft Store’dan indir" /></a>
   &nbsp;
   <a href="https://play.google.com/apps/testing/com.zleno.app"><img src="assets/android.svg" width="220" alt="Android testine katıl" /></a>
+  &nbsp;
+  <a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test"><img src="assets/linux.svg" width="220" alt="Linux sürümünü indir" /></a>
 </p>
 
 <p align="center">
   <a href="README.en.md">English</a> &nbsp; / &nbsp;
+  <a href="#uygulamadan-birkac-goruntu">Ekran görüntüleri</a> &nbsp; / &nbsp;
   <a href="#telefonda-dene">Android’e katıl</a> &nbsp; / &nbsp;
   <a href="docs/LINUX.md">Linux rehberi</a> &nbsp; / &nbsp;
   <a href="https://github.com/idginity124/Zleno/issues/new/choose">Geri bildirim</a> &nbsp; / &nbsp;
@@ -28,6 +31,7 @@
 
 <br />
 
+<a name="uygulamadan-birkac-goruntu"></a>
 <h2 align="center">Uygulamadan birkaç görüntü</h2>
 
 <p align="center">
@@ -35,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/voice-room-preview.png" width="760" alt="Zleno masaüstü önizlemesi: katılımcı kartları, mikrofon, kamera ve ekran paylaşımı kontrolleri bulunan bir sesli oda." />
+  <a href="assets/voice-room-preview.png"><img src="assets/voice-room-preview.png" width="760" alt="Zleno masaüstü önizlemesi: katılımcı kartları, mikrofon, kamera ve ekran paylaşımı kontrolleri bulunan bir sesli oda." /></a>
   <br />
   <sub>Masaüstü sesli oda önizlemesi. Görünüm ve özellikler sürüme göre değişebilir.</sub>
 </p>
@@ -78,7 +82,7 @@
     <tr>
       <td align="center"><strong>Linux</strong></td>
       <td align="center">0.1.9 test sürümü · x86_64</td>
-      <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Linux test sürümünü indir ↗</a></td>
+      <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Linux sürümünü indir ↗</a></td>
     </tr>
     <tr>
       <td align="center"><strong>macOS</strong></td>

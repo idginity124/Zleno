@@ -1,6 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="104" viewBox="0 0 480 104" role="img" aria-label="Support Zleno">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#8064f4"/><stop offset="1" stop-color="#6148d5"/></linearGradient></defs>
+<title>Support Zleno</title>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#8064f4"/><stop offset="1" stop-color="#6148d5"/></linearGradient>
+  <linearGradient id="shine"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="button"><rect x="1" y="1" width="478" height="102" rx="22"/></clipPath>
+</defs>
+<style>
+  .shine { animation: sweep 10s ease-in-out 2s infinite; transform: translateX(-140px); opacity: 0; }
+  .heart { transform-origin: 65px 47px; animation: heartbeat 10s ease-in-out 2s infinite; }
+  @keyframes sweep { 0%,2% { transform: translateX(-140px); opacity: 0; } 5% { opacity: 1; } 23% { transform: translateX(620px); opacity: 0; } 100% { transform: translateX(620px); opacity: 0; } }
+  @keyframes heartbeat { 0%,4%,12%,100% { transform: scale(1); } 7% { transform: scale(1.1); } 10% { transform: scale(1.04); } }
+  @media (prefers-reduced-motion: reduce) { .shine { display: none; animation: none; } .heart { animation: none; } }
+</style>
 <rect x="1" y="1" width="478" height="102" rx="22" fill="url(#bg)" stroke="#a48cfb"/>
-<path d="M65 67 44 47c-13-15 8-31 21-17 13-14 34 2 21 17Z" fill="#fff"/>
-<text x="274" y="64" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="30" font-weight="700">Support Zleno</text>
+<g clip-path="url(#button)"><rect class="shine" x="0" y="-20" width="130" height="160" fill="url(#shine)"/></g>
+<path class="heart" d="M65 67 44 47c-13-15 8-31 21-17 13-14 34 2 21 17Z" fill="#fff"/>
+<text x="274" y="64" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="30" font-weight="700">Support Zleno</text>
 </svg>
