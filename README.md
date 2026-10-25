@@ -11,6 +11,7 @@
 <p align="center">
   <a href="README.en.md">English</a> &nbsp; / &nbsp;
   <a href="#telefonda-dene">Android’e katıl</a> &nbsp; / &nbsp;
+  <a href="docs/LINUX.md">Linux rehberi</a> &nbsp; / &nbsp;
   <a href="https://github.com/idginity124/Zleno/issues/new/choose">Geri bildirim</a> &nbsp; / &nbsp;
   <a href="https://www.ekrembulgan.com">ekrembulgan.com</a>
 </p>
@@ -48,12 +49,18 @@ Zleno; sesli sohbeti, topluluk kanallarını ve özel mesajları bir araya getir
 
 ## Zleno’yu yanında götür
 
-| Hemen deneyebilirsin | Sıradaki platformlar |
-| :--- | :--- |
-| **Windows · Yayında**<br />[Microsoft Store’dan ücretsiz indir ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) | **Linux · Hazırlanıyor**<br />Paketleme ve uyumluluk doğrulaması hedefleniyor. |
-| **Android · Test sürecinde**<br />[Google Play testine katıl ↗](#telefonda-dene) | **macOS · Planlanıyor**<br />Mac üzerinde derleme ve test sonrası değerlendirilecek. |
+| Platform | Durum | Başlangıç |
+| :--- | :--- | :--- |
+| **Windows** | Microsoft Store’da yayında · Ücretsiz | [Microsoft Store’dan indir ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) |
+| **Android** | Google Play test sürecinde | [Üç adımda teste katıl ↓](#telefonda-dene) |
+| **Linux** | 0.1.9 paketleri hazırlandı · Yayın öncesi testler sürüyor | [Paketler ve kurulum rehberi →](docs/LINUX.md) |
+| **macOS** | Planlanıyor | [Yol haritası →](ROADMAP.md) |
 
-Linux ve macOS için henüz indirme sunulmuyor. Gelişmeleri [yol haritasından](ROADMAP.md) takip edebilirsin.
+### Linux’a bir adım daha yakın
+
+**Arch / CachyOS, DEB ve RPM paketleri üretildi.** İlk Linux sürümü için kurulum, ses ve masaüstü testleri tamamlanıyor. AppImage hazırlığı sürüyor; Linux paketleri henüz indirmeye açılmadı.
+
+[Linux rehberini incele →](docs/LINUX.md) &nbsp; · &nbsp; [Geliştirme notları →](CHANGELOG.md)
 
 ## Telefonda dene
 

@@ -11,6 +11,7 @@
 <p align="center">
   <a href="README.md">Türkçe</a> &nbsp; / &nbsp;
   <a href="#try-it-on-your-phone">Try Android</a> &nbsp; / &nbsp;
+  <a href="docs/LINUX.md#english">Linux guide</a> &nbsp; / &nbsp;
   <a href="https://github.com/idginity124/Zleno/issues/new/choose">Feedback</a> &nbsp; / &nbsp;
   <a href="https://www.ekrembulgan.com">ekrembulgan.com</a>
 </p>
@@ -48,12 +49,18 @@ Zleno brings voice conversations, community channels, and direct messages into o
 
 ## Take Zleno with you
 
-| Available to try | On the horizon |
-| :--- | :--- |
-| **Windows · Available**<br />[Get it free on Microsoft Store ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) | **Linux · In preparation**<br />Packaging and compatibility validation are planned. |
-| **Android · In testing**<br />[Join the Google Play test ↗](#try-it-on-your-phone) | **macOS · Planned**<br />Subject to successful Mac builds and device testing. |
+| Platform | Status | Get started |
+| :--- | :--- | :--- |
+| **Windows** | Available on Microsoft Store · Free | [Get it on Microsoft Store ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) |
+| **Android** | Google Play testing | [Join in three steps ↓](#try-it-on-your-phone) |
+| **Linux** | 0.1.9 packages built · Pre-release testing in progress | [Packages and installation guide →](docs/LINUX.md#english) |
+| **macOS** | Planned | [Roadmap →](ROADMAP.md) |
 
-Linux and macOS downloads are not available yet. Follow the [roadmap](ROADMAP.md) for development goals.
+### One step closer to Linux
+
+**Arch / CachyOS, DEB and RPM packages have been built.** Installation, voice and desktop testing is next for the first Linux release. AppImage preparation continues; Linux downloads are not available yet.
+
+[Explore the Linux guide →](docs/LINUX.md#english) &nbsp; · &nbsp; [Development notes →](CHANGELOG.md#english)
 
 ## Try it on your phone
 
