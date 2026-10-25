@@ -38,6 +38,14 @@ Zleno brings voice conversations, community channels, and direct messages into o
   <sub>Desktop interface preview. Appearance and feature availability may vary by version.</sub>
 </p>
 
+<p align="center">
+  <a href="assets/theme-preview.jpg"><img src="assets/theme-preview.jpg" width="48%" alt="Zleno theme editor interface preview" /></a>
+  &nbsp;
+  <a href="assets/workspace-preview.jpg"><img src="assets/workspace-preview.jpg" width="48%" alt="Zleno workspace layout settings preview" /></a>
+  <br /><sub>Theme editor on the left, workspace settings on the right. Click an image to enlarge.</sub>
+</p>
+
+
 ## Take Zleno with you
 
 | Available to try | On the horizon |
@@ -73,17 +81,11 @@ Server capacity improvements depend on available resources. These are goals with
 
 ---
 
-### 🧠 The Training Arc
+<p><img src="assets/training-arc.en.svg" width="100%" alt="The Training Arc. This project is part of my personal journey of learning and growth. Every project is a level. Every mistake is practice." /></p>
 
-> This project is part of my personal journey of learning and growth.  
-> **Every project is a level. Every mistake is practice.**
+**Ekrem Bulgan** · Creator of Zleno  
+[Website ↗](https://www.ekrembulgan.com) &nbsp; · &nbsp; [Feedback ↗](https://github.com/idginity124/Zleno/issues/new/choose) &nbsp; · &nbsp; [Tester community ↗](https://groups.google.com/g/zleno)
 
-<p align="center">
-  <strong>Built by Ekrem Bulgan.</strong><br />
-  <a href="https://www.ekrembulgan.com">Website</a> &nbsp; · &nbsp;
-  <a href="https://github.com/idginity124/Zleno/issues/new/choose">Report a bug / share an idea</a> &nbsp; · &nbsp;
-  <a href="https://groups.google.com/g/zleno">Tester community</a><br /><br />
-  <sub>If you enjoy Zleno, a star helps others discover it.</sub>
-</p>
+Enjoy Zleno? Leave a ⭐ to help others discover it.
 
-<p align="center"><sub>© 2026 Ekrem Bulgan · Product information and feedback; application source code is not included.<br /><a href="LICENSE">Usage terms</a> · <a href="SECURITY.md">Security reports</a></sub></p>
+<sub>© 2026 Ekrem Bulgan · Application source not included · [Usage terms](LICENSE) · [Security](SECURITY.md)</sub>

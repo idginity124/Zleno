@@ -38,6 +38,14 @@ Zleno; sesli sohbeti, topluluk kanallarını ve özel mesajları bir araya getir
   <sub>Masaüstü sesli oda önizlemesi. Görünüm ve özellikler sürüme göre değişebilir.</sub>
 </p>
 
+<p align="center">
+  <a href="assets/theme-preview.jpg"><img src="assets/theme-preview.jpg" width="48%" alt="Zleno tema özelleştirme arayüzü önizlemesi" /></a>
+  &nbsp;
+  <a href="assets/workspace-preview.jpg"><img src="assets/workspace-preview.jpg" width="48%" alt="Zleno çalışma alanı yerleşim ayarları önizlemesi" /></a>
+  <br /><sub>Solda tema düzenleyicisi, sağda çalışma alanı ayarları. Büyütmek için görsellere tıkla.</sub>
+</p>
+
+
 ## Zleno’yu yanında götür
 
 | Hemen deneyebilirsin | Sıradaki platformlar |
@@ -73,17 +81,11 @@ Sunucu kapasitesini de kaynaklar elverdikçe geliştirmek istiyorum. Bunlar kesi
 
 ---
 
-### 🧠 The Training Arc
+<p><img src="assets/training-arc.svg" width="100%" alt="The Training Arc. Bu proje, sürekli öğrenip geliştiğim kişisel yolculuğumun bir parçası. Her proje bir seviye, her hata bir antrenman." /></p>
 
-> Bu proje, sürekli öğrenip geliştiğim kişisel yolculuğumun bir parçası.  
-> **Her proje bir seviye, her hata bir antrenman.**
+**Ekrem Bulgan** · Zleno’nun geliştiricisi  
+[Web sitesi ↗](https://www.ekrembulgan.com) &nbsp; · &nbsp; [Geri bildirim ↗](https://github.com/idginity124/Zleno/issues/new/choose) &nbsp; · &nbsp; [Test topluluğu ↗](https://groups.google.com/g/zleno)
 
-<p align="center">
-  <strong>Ekrem Bulgan tarafından geliştiriliyor.</strong><br />
-  <a href="https://www.ekrembulgan.com">Web sitesi</a> &nbsp; · &nbsp;
-  <a href="https://github.com/idginity124/Zleno/issues/new/choose">Hata bildir / öneri paylaş</a> &nbsp; · &nbsp;
-  <a href="https://groups.google.com/g/zleno">Test topluluğu</a><br /><br />
-  <sub>Zleno’yu beğendiysen bir yıldız bırakarak keşfedilmesine yardımcı olabilirsin.</sub>
-</p>
+Zleno’yu beğendiysen bir ⭐ bırakarak daha fazla kişiye ulaşmasına yardımcı olabilirsin.
 
-<p align="center"><sub>© 2026 Ekrem Bulgan · Tanıtım ve geri bildirim deposu; uygulama kaynak kodlarını içermez.<br /><a href="LICENSE">Kullanım koşulları</a> · <a href="SECURITY.md">Güvenlik bildirimi</a></sub></p>
+<sub>© 2026 Ekrem Bulgan · Kaynak kodu içermez · [Kullanım koşulları](LICENSE) · [Güvenlik](SECURITY.md)</sub>
