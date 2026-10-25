@@ -81,7 +81,7 @@
     </tr>
     <tr>
       <td align="center"><strong>Linux</strong></td>
-      <td align="center">0.1.9 test release · x86_64</td>
+      <td align="center">0.1.9 · x86_64</td>
       <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Download Zleno for Linux ↗</a></td>
     </tr>
     <tr>
@@ -92,15 +92,17 @@
   </tbody>
 </table>
 
-<h3 align="center">Linux test release</h3>
+<h3 align="center">Linux 0.1.9</h3>
 
 <p align="center">
-  <strong>Linux 0.1.9 test downloads are available.</strong> Includes an Arch / CachyOS package and experimental DEB/RPM files. Built on CachyOS x86_64 with glibc 2.44; distribution compatibility and real-device testing are not complete. AppImage preparation continues.
+  <strong>Linux 0.1.9 downloads are available.</strong> Includes an Arch / CachyOS package and experimental DEB/RPM files. Built on CachyOS x86_64 with glibc 2.44; distribution compatibility and real-device testing are not complete. AppImage preparation continues.
 </p>
 
 <p align="center">
   <a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Download packages →</a> &nbsp; · &nbsp; <a href="docs/LINUX.md#english">Installation guide →</a> &nbsp; · &nbsp; <a href="CHANGELOG.md#english">Development notes →</a>
 </p>
+
+<p align="center"><sub>GPG signatures are available. <a href="docs/LINUX.md#signature-verification">Verify your download</a>.</sub></p>
 
 <a name="try-it-on-your-phone"></a>
 <h2 align="center">Try it on your phone</h2>

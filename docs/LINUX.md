@@ -2,76 +2,89 @@
 
 [← Zleno](../README.md) · [English ↓](#english) · [Geliştirme notları](../CHANGELOG.md)
 
-## Yayın durumu
+## İndir
 
-**0.1.9 için Arch / CachyOS, DEB ve RPM paketleri üretildi.** Kurulum ve gerçek kullanım testleri sürüyor. AppImage henüz tamamlanmadı.
+**[Linux 0.1.9 paketlerini indir →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)**
 
-**[Linux 0.1.9 test paketlerini indir →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)**
+| Sistem | Paket |
+| --- | --- |
+| Arch Linux / CachyOS · x86_64 | `.pkg.tar.zst` |
+| Debian / Ubuntu ailesi · deneysel | `.deb` |
+| RPM tabanlı dağıtımlar · deneysel | `.rpm` |
 
-Bu bir ön sürümdür; kurulum ve gerçek kullanım testleri tamamlanmadı. İndirdiğin paketin yanındaki SHA-256 dosyasını da al.
+Paketler CachyOS x86_64 / glibc 2.44 üzerinde üretildi. Gerçek cihaz testleri henüz tamamlanmadı; DEB/RPM paketleri hedef dağıtımlarda doğrulanmadı. Eski glibc kullanan dağıtımlar için uygun tabanda yeniden derleme gerekiyor. AppImage ve ARM64 henüz yok.
 
-## Hangi paket bana uygun?
+<a name="imza-dogrulama"></a>
+## İmzayı doğrulama
 
-| Sistem | Paket | Durum |
-| :--- | :--- | :--- |
-| Arch Linux / CachyOS · x86_64 | `.pkg.tar.zst` | Paket üretildi; kurulum ve kullanım testleri bekliyor |
-| Debian / Ubuntu ailesi · x86_64 | `.deb` | Paket üretildi; hedef dağıtımda yeniden derleme ve test gerekiyor |
-| RPM tabanlı dağıtımlar · x86_64 | `.rpm` | Paket üretildi; hedef dağıtımda yeniden derleme ve test gerekiyor |
-| Diğer dağıtımlar | `.AppImage` | Hazırlanıyor |
+Paketler ayrı GPG imza dosyalarıyla (`.sig`) sunulur. İmza, paketin bu anahtarla imzalandığını ve değiştirilmediğini kontrol eder; dağıtım uyumluluğu veya hatasız çalışma garantisi değildir. DEB/RPM dosyalarında yerleşik paket yöneticisi imzası yerine bu ayrı imzalar kullanılır.
 
-Mevcut paketler CachyOS üzerinde glibc 2.44 ile derlendi. Eski glibc kullanan dağıtımlarda çalışmaları garanti edilmez. DEB/RPM biçimi tek başına dağıtım uyumluluğu sağlamaz. ARM64 sürümü henüz yok.
+Beklenen anahtar parmak izi:
+
+```text
+D395 593F 3C7B 3844 3447 1081 E228 12B0 7036 A65E
+```
+
+Yayın sayfasından istediğin paketi, onun `.sig` dosyasını, `Zleno-Linux-signing-key.asc`, `SHA256SUMS` ve `SHA256SUMS.sig` dosyalarını aynı klasöre indir.
+
+```bash
+gpg --import Zleno-Linux-signing-key.asc
+gpg --fingerprint D395593F3C7B384434471081E22812B07036A65E
+gpg --verify SHA256SUMS.sig SHA256SUMS
+sha256sum --ignore-missing -c SHA256SUMS
+```
+
+Gösterilen tam parmak izini yukarıdaki değerle karşılaştır. İmza doğrulaması ve indirdiğin dosyanın checksum kontrolü başarılı olmalı. GPG, imza doğru olsa da anahtarın kimliğine henüz güven atanmamış olduğunu söyleyebilir; bu, imza kontrolünden ayrı bir konudur.
 
 ## Arch / CachyOS kurulumu
 
-Yayın sayfasındaki `.pkg.tar.zst` ve yanındaki `.sha256` dosyasını aynı klasöre indir. Bu klasörde terminal aç:
+Paketin kendi imzasını da doğrula:
 
 ```bash
-sha256sum -c zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst.sha256
+gpg --verify zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst.sig zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst
+```
+
+Parmak izini doğruladıktan sonra pacman'ın da bu yayıncı anahtarını tanıması için:
+
+```bash
+sudo pacman-key --add ./Zleno-Linux-signing-key.asc
+sudo pacman-key --finger D395593F3C7B384434471081E22812B07036A65E
+sudo pacman-key --lsign-key D395593F3C7B384434471081E22812B07036A65E
 sudo pacman -U ./zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst
 ```
 
-Doğrulama `OK` vermeden kuruluma devam etme. SHA-256 dosya bütünlüğünü kontrol eder; yayıncı imzası değildir. Mevcut test paketi GPG ile imzalanmadı.
+`--lsign-key`, doğruladığın yayıncı anahtarına kendi sisteminde güven atar. Kimliğini doğrulamadığın başka anahtarlara bu adımı uygulama.
 
-Uygulamayı menüde **Zleno Desktop** adıyla bulabilir veya `zleno_desktop` komutuyla açabilirsin. Güncellemek için yeni sürüm paketinde aynı `pacman -U` adımını uygula.
+Menüden **Zleno Desktop**'ı açabilir veya `zleno_desktop` çalıştırabilirsin. Güncelleme yeni paketle aynı `pacman -U` adımıdır. Kaldırma: `sudo pacman -R zleno-desktop-bin`.
 
-Kaldırmak için:
+## Masaüstü desteği
 
-```bash
-sudo pacman -R zleno-desktop-bin
-```
+- Wayland'da mikrofon kısayolları uygulama içindeyken kullanılabilir; global kısayollar native X11 gerektirir.
+- Arka plana gönderme pencereyi küçültür. Sistem tepsisi davranışı masaüstüne göre değişebilir.
+- Ekran ve sistem sesi paylaşımı WebKit/masaüstü yakalama desteğine bağlıdır.
+- Arayüz şu an Türkçe; İngilizce desteği planlanıyor.
 
-## Masaüstünde nasıl davranıyor?
-
-- **Wayland:** mikrofon kısayolları uygulama içindeyken kullanılabilir. Masaüstü genelindeki kısayollar native X11 oturumu gerektirir.
-- **Arka plan:** pencere küçültülür; sistem tepsisi desteği masaüstüne göre değişebilir.
-- **Ekran paylaşımı:** WebKit ve masaüstü yakalama desteğine bağlıdır. Her oturumda ekran veya sistem sesi paylaşımı sunulacağı garanti edilmez.
-- **Dil:** arayüz şu an Türkçe; İngilizce desteği planlanıyor.
-
-## İlk denemede bize yardımcı ol
-
-Giriş ve çıkışı, iki kişiyle sesli odayı, mikrofon/kamera değişimini ve bildirimleri dene. Bir sorunla karşılaşırsan [hata bildirimi aç](https://github.com/idginity124/Zleno/issues/new/choose).
-
-Bildirime dağıtımını, masaüstünü, X11/Wayland bilgisini, uygulama sürümünü ve tekrar etme adımlarını ekle. Günlük paylaşmadan önce hesap bilgilerini, özel mesajları ve erişim belirteçlerini çıkar.
+Sorunları [Issues](https://github.com/idginity124/Zleno/issues/new/choose) üzerinden dağıtımın, masaüstün, X11/Wayland bilgisi, uygulama sürümü ve tekrar etme adımlarıyla paylaş. Özel mesajları ve erişim bilgilerini günlüklerden çıkar.
 
 ---
 
 ## English
 
-**Arch / CachyOS, DEB and RPM packages for 0.1.9 have been built.** Installation and real-world testing remain in progress; AppImage is not complete. **[Download the Linux 0.1.9 test release →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)** This is a pre-release; installation and real-device testing are not complete.
+**[Download Linux 0.1.9](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)**
 
-Current builds use CachyOS with glibc 2.44 and x86_64. They are not verified for older distributions. DEB/RPM packages need an appropriate target-distribution build and testing before broad release. ARM64 packages are not available.
+Built on CachyOS x86_64 with glibc 2.44. Real-device tests are not complete. DEB/RPM packages are experimental and have not been validated on their target distributions; older systems need an appropriate distribution build. AppImage and ARM64 are not available.
 
-### Arch / CachyOS installation
+<a name="signature-verification"></a>
+### Verify signatures
 
-Download the package and its `.sha256` file into the same directory, then run:
+Expected signing fingerprint:
 
-```bash
-sha256sum -c zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst.sha256
-sudo pacman -U ./zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst
+```text
+D395 593F 3C7B 3844 3447 1081 E228 12B0 7036 A65E
 ```
 
-Proceed only if checksum verification succeeds. SHA-256 checks integrity, not publisher identity; the current test package is not GPG-signed. Launch **Zleno Desktop** from your application menu or run `zleno_desktop`. Install future updates with `pacman -U` using the new package. Remove it with `sudo pacman -R zleno-desktop-bin`.
+Download a package, its `.sig`, the public key `Zleno-Linux-signing-key.asc`, `SHA256SUMS` and `SHA256SUMS.sig` into one directory. Run the import, fingerprint, manifest verification and checksum commands above. Compare the complete fingerprint before trusting the key. The signatures are detached; DEB/RPM native package-manager signing is not included.
 
-Wayland supports in-app shortcuts; global shortcuts require native X11. Backgrounding minimizes the window. Screen and system-audio capture depend on WebKit and desktop support. The interface is currently Turkish.
+For Arch, also verify the package signature, add the checked public key to pacman's keyring, compare its fingerprint, locally sign that publisher key with `pacman-key --lsign-key`, and install with `pacman -U` as shown above. This assigns local trust to that publisher key. Launch `zleno_desktop`; remove with `sudo pacman -R zleno-desktop-bin`.
 
-Please test sign-in/out, two-person voice rooms, device changes and notifications. [Report an issue](https://github.com/idginity124/Zleno/issues/new/choose) with your distribution, desktop, X11/Wayland session, app version and reproduction steps. Remove credentials and private conversations from logs.
+A valid signature establishes authenticity relative to the verified key and file integrity, not compatibility or absence of bugs. GPG's trust warning is distinct from signature validity. Wayland supports in-app shortcuts; global shortcuts require native X11. Capture depends on WebKit and desktop support. The interface is currently Turkish.

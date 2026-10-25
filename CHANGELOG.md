@@ -2,6 +2,10 @@
 
 [← Zleno](README.md) · [English ↓](#english) · [Yol haritası](ROADMAP.md)
 
+## Linux 0.1.9 · İmzalı yayın
+
+Linux yayını normal GitHub sürümü olarak işaretlendi. Paketlere ayrı GPG imzaları, imzalı SHA-256 listesi ve açık imzalama anahtarı eklendi. Dağıtım ve gerçek cihaz testleri için belirtilen sınırlar devam ediyor. [İmza doğrulama](docs/LINUX.md#imza-dogrulama).
+
 ## 25 Ekim 2026
 
 ### Linux · 0.1.9 hazırlığı
@@ -26,6 +30,8 @@ Bu notlar geliştirme durumunu gösterir. Burada hazırlanan bir sürümün beli
 ---
 
 ## English
+
+Linux 0.1.9 is now a regular GitHub release with detached GPG signatures, a signed SHA-256 manifest and the public signing key. Distribution and runtime validation limits still apply. [Verify downloads](docs/LINUX.md#signature-verification).
 
 ### October 25, 2026
 

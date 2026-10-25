@@ -81,7 +81,7 @@
     </tr>
     <tr>
       <td align="center"><strong>Linux</strong></td>
-      <td align="center">0.1.9 test sürümü · x86_64</td>
+      <td align="center">0.1.9 · x86_64</td>
       <td align="center"><a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Linux sürümünü indir ↗</a></td>
     </tr>
     <tr>
@@ -92,15 +92,17 @@
   </tbody>
 </table>
 
-<h3 align="center">Linux test sürümü</h3>
+<h3 align="center">Linux 0.1.9</h3>
 
 <p align="center">
-  <strong>Linux 0.1.9 test sürümü indirmeye açık.</strong> Arch / CachyOS paketi ve deneysel DEB/RPM dosyaları mevcut. Bu ilk ön sürüm CachyOS x86_64 / glibc 2.44 üzerinde üretildi; diğer dağıtımlarda uyumluluk ve gerçek cihaz testleri henüz tamamlanmadı. AppImage hazırlığı sürüyor.
+  <strong>Linux 0.1.9 indirmeye açık.</strong> Arch / CachyOS paketi ve deneysel DEB/RPM dosyaları mevcut. Bu sürüm CachyOS x86_64 / glibc 2.44 üzerinde üretildi; diğer dağıtımlarda uyumluluk ve gerçek cihaz testleri henüz tamamlanmadı. AppImage hazırlığı sürüyor.
 </p>
 
 <p align="center">
   <a href="https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test">Paketleri indir →</a> &nbsp; · &nbsp; <a href="docs/LINUX.md">Kurulum rehberi →</a> &nbsp; · &nbsp; <a href="CHANGELOG.md">Geliştirme notları →</a>
 </p>
+
+<p align="center"><sub>Paketlerin GPG imzaları mevcut. <a href="docs/LINUX.md#imza-dogrulama">İmzayı doğrula</a>.</sub></p>
 
 <a name="telefonda-dene"></a>
 <h2 align="center">Telefonda dene</h2>
