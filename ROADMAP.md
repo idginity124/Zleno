@@ -6,7 +6,7 @@ Bu sayfa geliştirme yönünü gösterir. Tarihler ve platform yayınları; test
 | --- | --- | --- |
 | Windows | Microsoft Store’da yayında / Available | Kullanıcı geri bildirimleri ve kararlılık / Feedback and reliability |
 | Android | Google Play test süreci / Testing | 1.0.5 sürüm hazırlığı ve cihaz testleri / 1.0.5 release preparation and device testing |
-| Linux | 0.1.9 DEB, RPM ve Arch paketleri üretildi / Packages built | Kurulum ve ses testleri, AppImage, ardından indirme yayını / Installation and voice tests, AppImage, then public downloads |
+| Linux | 0.1.9 Linux test sürümü indirmeye açık / Test downloads available | Dağıtım ve ses testleri, AppImage / Distribution and voice tests, AppImage |
 | macOS | Hedeflenen platform / Target | Mac üzerinde derleme ve test, dağıtım gereksinimlerinin değerlendirilmesi / Build, test, distribution assessment |
 | Dil / Language | Türkçe / Turkish | İngilizce arayüz / English interface |
 | Altyapı / Infrastructure | Sınırlı kişisel bütçe / Limited personal budget | Kaynaklar elverdikçe kapasite ve sürekliliği geliştirme / Capacity and reliability as resources allow |

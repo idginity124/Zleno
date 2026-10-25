@@ -6,7 +6,9 @@
 
 **0.1.9 için Arch / CachyOS, DEB ve RPM paketleri üretildi.** Kurulum ve gerçek kullanım testleri sürüyor. AppImage henüz tamamlanmadı.
 
-Linux paketleri şu anda herkese açık indirmeye sunulmuyor. Doğrulanan paketler yayımlandığında [Releases](https://github.com/idginity124/Zleno/releases) bölümüne eklenecek. Aşağıdaki adımlar, ilgili paket yayımlandıktan sonra kullanmak içindir.
+**[Linux 0.1.9 test paketlerini indir →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)**
+
+Bu bir ön sürümdür; kurulum ve gerçek kullanım testleri tamamlanmadı. İndirdiğin paketin yanındaki SHA-256 dosyasını da al.
 
 ## Hangi paket bana uygun?
 
@@ -21,7 +23,7 @@ Mevcut paketler CachyOS üzerinde glibc 2.44 ile derlendi. Eski glibc kullanan d
 
 ## Arch / CachyOS kurulumu
 
-Paket yayımlandığında `.pkg.tar.zst` ve yanındaki `.sha256` dosyasını aynı klasöre indir. Bu klasörde terminal aç:
+Yayın sayfasındaki `.pkg.tar.zst` ve yanındaki `.sha256` dosyasını aynı klasöre indir. Bu klasörde terminal aç:
 
 ```bash
 sha256sum -c zleno-desktop-bin-0.1.9-1-x86_64.pkg.tar.zst.sha256
@@ -55,11 +57,11 @@ Bildirime dağıtımını, masaüstünü, X11/Wayland bilgisini, uygulama sürü
 
 ## English
 
-**Arch / CachyOS, DEB and RPM packages for 0.1.9 have been built.** Installation and real-world testing remain in progress; AppImage is not complete. Downloads are not public yet. Validated packages will be added to [Releases](https://github.com/idginity124/Zleno/releases).
+**Arch / CachyOS, DEB and RPM packages for 0.1.9 have been built.** Installation and real-world testing remain in progress; AppImage is not complete. **[Download the Linux 0.1.9 test release →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)** This is a pre-release; installation and real-device testing are not complete.
 
 Current builds use CachyOS with glibc 2.44 and x86_64. They are not verified for older distributions. DEB/RPM packages need an appropriate target-distribution build and testing before broad release. ARM64 packages are not available.
 
-### Arch / CachyOS, after publication
+### Arch / CachyOS installation
 
 Download the package and its `.sha256` file into the same directory, then run:
 

@@ -53,14 +53,14 @@ Zleno; sesli sohbeti, topluluk kanallarını ve özel mesajları bir araya getir
 | :--- | :--- | :--- |
 | **Windows** | Microsoft Store’da yayında · Ücretsiz | [Microsoft Store’dan indir ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) |
 | **Android** | Google Play test sürecinde | [Üç adımda teste katıl ↓](#telefonda-dene) |
-| **Linux** | 0.1.9 paketleri hazırlandı · Yayın öncesi testler sürüyor | [Paketler ve kurulum rehberi →](docs/LINUX.md) |
+| **Linux** | 0.1.9 test sürümü · x86_64 | [Linux test sürümünü indir ↗](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) |
 | **macOS** | Planlanıyor | [Yol haritası →](ROADMAP.md) |
 
-### Linux’a bir adım daha yakın
+### Linux’ta ilk buluşma
 
-**Arch / CachyOS, DEB ve RPM paketleri üretildi.** İlk Linux sürümü için kurulum, ses ve masaüstü testleri tamamlanıyor. AppImage hazırlığı sürüyor; Linux paketleri henüz indirmeye açılmadı.
+**Linux 0.1.9 test sürümü indirmeye açık.** Arch / CachyOS paketi ve deneysel DEB/RPM dosyaları mevcut. Bu ilk ön sürüm CachyOS x86_64 / glibc 2.44 üzerinde üretildi; diğer dağıtımlarda uyumluluk ve gerçek cihaz testleri henüz tamamlanmadı. AppImage hazırlığı sürüyor.
 
-[Linux rehberini incele →](docs/LINUX.md) &nbsp; · &nbsp; [Geliştirme notları →](CHANGELOG.md)
+[Paketleri indir →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) &nbsp; · &nbsp; [Kurulum rehberi →](docs/LINUX.md) &nbsp; · &nbsp; [Geliştirme notları →](CHANGELOG.md)
 
 ## Telefonda dene
 

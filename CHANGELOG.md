@@ -9,7 +9,7 @@
 - Arch Linux / CachyOS için yerel `.pkg.tar.zst` paketi üretildi.
 - DEB ve RPM paketleri üretildi; SHA-256 dosyaları hazırlandı.
 - Wayland kısayolları, arka plan davranışı ve ekran paylaşımı kullanılabilirlik kontrolleri iyileştirildi.
-- AppImage hazırlığı ve gerçek cihaz testleri sürüyor. Paketler henüz herkese açık indirmeye sunulmadı.
+- AppImage hazırlığı ve gerçek cihaz testleri sürüyor. [Linux test paketleri indirmeye açıldı.](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test)
 
 Kurulum ve dağıtım uyumluluğu: [Linux rehberi](docs/LINUX.md).
 
@@ -29,7 +29,7 @@ Bu notlar geliştirme durumunu gösterir. Burada hazırlanan bir sürümün beli
 
 ### October 25, 2026
 
-**Linux 0.1.9 preparation:** native Arch / CachyOS, DEB and RPM packages have been built with SHA-256 files. Wayland shortcuts, background behavior and screen-capture capability handling were improved. AppImage and device testing remain in progress; downloads are not public yet. See the [Linux guide](docs/LINUX.md#english).
+**Linux 0.1.9 preparation:** native Arch / CachyOS, DEB and RPM packages have been built with SHA-256 files. Wayland shortcuts, background behavior and screen-capture capability handling were improved. AppImage and device testing remain in progress; [Linux test downloads are available](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test). See the [Linux guide](docs/LINUX.md#english).
 
 **Android 1.0.5 preparation:** local message-cache cleanup on sign-out was improved. Google Play release preparation continues; this version has not been published. Join the existing test through the [README](README.en.md#try-it-on-your-phone).
 

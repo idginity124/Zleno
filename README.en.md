@@ -53,14 +53,14 @@ Zleno brings voice conversations, community channels, and direct messages into o
 | :--- | :--- | :--- |
 | **Windows** | Available on Microsoft Store · Free | [Get it on Microsoft Store ↗](https://apps.microsoft.com/detail/9NK6QQKSLSHD) |
 | **Android** | Google Play testing | [Join in three steps ↓](#try-it-on-your-phone) |
-| **Linux** | 0.1.9 packages built · Pre-release testing in progress | [Packages and installation guide →](docs/LINUX.md#english) |
+| **Linux** | 0.1.9 test release · x86_64 | [Download the Linux test release ↗](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) |
 | **macOS** | Planned | [Roadmap →](ROADMAP.md) |
 
-### One step closer to Linux
+### First steps on Linux
 
-**Arch / CachyOS, DEB and RPM packages have been built.** Installation, voice and desktop testing is next for the first Linux release. AppImage preparation continues; Linux downloads are not available yet.
+**Linux 0.1.9 test downloads are available.** Includes an Arch / CachyOS package and experimental DEB/RPM files. Built on CachyOS x86_64 with glibc 2.44; distribution compatibility and real-device testing are not complete. AppImage preparation continues.
 
-[Explore the Linux guide →](docs/LINUX.md#english) &nbsp; · &nbsp; [Development notes →](CHANGELOG.md#english)
+[Download packages →](https://github.com/idginity124/Zleno/releases/tag/desktop-v0.1.9-linux-test) &nbsp; · &nbsp; [Installation guide →](docs/LINUX.md#english) &nbsp; · &nbsp; [Development notes →](CHANGELOG.md#english)
 
 ## Try it on your phone
 
